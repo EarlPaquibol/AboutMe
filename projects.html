@@ -67,8 +67,13 @@
     <div id="projecttwo-content" class="jumbotron jumbotron-fluid">
         <div class="container col-lg-4">
             <div class="profile text-center">
-                <img class="user-img" src="images/walletlogo.png" alt="">
-                <h2 class="spacing white">BudgetWallet</h2>
+                <picture>
+                    <source 
+                      media="(max-width: 650px)"
+                      srcset="images/cashmoney.png">
+                      <img src="images/walletlogo.png">
+                  </picture>
+                <h2 class="spacing white" style="margin-top: 20px;">BudgetWallet</h2>
                 <h3 class="white">Front-end: HTML, CSS, and JS / Back-end: Microsoft SQL, ASP .NET</h3>
                 <p class="white">This was done for my final project in ASP.NET. Here I made use of web forms, authentication, password-encryption, and much more.</p>
                 <a class="margin button-view" href="http://walletapp.gear.host/" target="_blank">View on GearHost</a>
